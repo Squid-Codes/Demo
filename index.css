@@ -16,6 +16,7 @@
 .container {
     height: 100dvh;
     width: 100dvw;
+    position: relative;;
 
     background: rgba(0,0,0,0.3) url(background-1.jpg);
     background-repeat: no-repeat;
@@ -47,5 +48,12 @@
     font-size: 3dvw;
 
     text-shadow: 10px 10px 10px rgb(26, 26, 26);
+}
+
+.audio {
+    position: absolute;
+
+    right: 10px;
+    bottom: 10px;
 }
 
