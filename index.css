@@ -1,0 +1,10 @@
+.container{
+    height: 100dvh;
+    width: 100dvw;
+
+    background-image: url(background-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
