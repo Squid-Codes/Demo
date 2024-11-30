@@ -1,15 +1,51 @@
+@font-face {
+    font-family: 'Warsuck';
+    src: url(Warsuck.ttf);
+}
+
+@font-face {
+    font-family: 'OldNewspaperTypes';
+    src: url(OldNewspaperTypes.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     height: 100dvh;
     width: 100dvw;
 
-    background-image: url(background-1.jpg);
+    background: rgba(0,0,0,0.3) url(background-1.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 85%;
     background-attachment: fixed;
     background-size: cover;
+    background-blend-mode: darken;
 }
+
+.dateTime {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateTime #time {
+    color: white;
+    font-family: 'Warsuck';
+    font-size: 10dvw;
+    line-height: calc(100%);
+    text-shadow: 10px 10px 10px rgb(26, 26, 26);
+}
+
+.dateTime #date {
+    color: white;
+    font-family: 'OldNewspaperTypes';
+    font-size: 3dvw;
+
+    text-shadow: 10px 10px 10px rgb(26, 26, 26);
+}
+
